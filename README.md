@@ -2,8 +2,6 @@
 
 > An AI-powered investment research tool that analyzes public companies using a multi-step agentic pipeline — fetching live financial data, recent news, and synthesizing it all into a final **Invest / Pass** recommendation.
 
-![Homepage](./screenshots/homepage.png)
-
 ---
 
 ## 📑 Table of Contents
@@ -50,7 +48,7 @@ The entire pipeline is orchestrated using **LangGraph** (a state-machine graph f
 
 ## 🌐 Deployed Link
 
-> **Live Demo:** [https://ai-investor-agent.vercel.app](https://ai-investor-agent.vercel.app)
+> **Live Demo:** [https://ai-investor-agent-mocha.vercel.app/](https://ai-investor-agent-mocha.vercel.app/)
 >
 > ⚠️ *Note: The backend is deployed on a free-tier service (e.g., Render). It may take ~30 seconds to cold-start on the first request. If the link is down or keys have expired, please run locally using the instructions below.*
 
@@ -59,19 +57,13 @@ The entire pipeline is orchestrated using **LangGraph** (a state-machine graph f
 ## 📸 Screenshots
 
 ### Homepage — Hero Section
-![Homepage Hero](./screenshots/homepage.png)
+![Homepage Hero](<Screenshot 2026-07-12 232441.png>)
 *The landing page with search bar, quick-pick company buttons, and the live analyst snapshot panel.*
 
-### Analysis Results — Company Overview, Financials, News & Risk
-![Analysis Results](./screenshots/results.png)
-*After analyzing a company, the results are displayed in organized cards — overview, financial health, news sentiment, and identified risks.*
-
-### AI Recommendation — Final Verdict
-![AI Decision](./screenshots/decision.png)
-*The final AI recommendation with Invest/Pass badge, confidence bar, pros/cons breakdown, and summary.*
-
-> 💡 *If screenshot images are missing, run the app locally and check `http://localhost:5173`.*
-
+### Analysis Results — Company Overview, Financials, News & Risk , Final Verdict
+![Analysis1](<Screenshot 2026-07-12 232530.png>)
+![Analysis2](<Screenshot 2026-07-12 232547.png>)
+![Analysis3](<Screenshot 2026-07-12 232602.png>)
 ---
 
 ## 🚀 How to Run
