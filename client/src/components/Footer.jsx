@@ -52,7 +52,7 @@ function Footer() {
           {/* Social links */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com"
+              href="https://github.com/Vaishnavi1325/"
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-white/10 bg-white/10 p-2.5 transition hover:bg-white/20"
@@ -60,7 +60,7 @@ function Footer() {
               <FaGithub className="text-lg text-slate-200" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/vaishnavi1325/"
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-white/10 bg-white/10 p-2.5 transition hover:bg-white/20"
