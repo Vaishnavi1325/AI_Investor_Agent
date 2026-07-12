@@ -61,8 +61,11 @@ The entire pipeline is orchestrated using **LangGraph** (a state-machine graph f
 *The landing page with search bar, quick-pick company buttons, and the live analyst snapshot panel.*
 
 ### Analysis Results — Company Overview, Financials, News & Risk , Final Verdict
+### Analysis1
 ![Analysis1](<screenshots/Screenshot 2026-07-12 232530.png>)
+### Analysis2
 ![Analysis2](<screenshots/Screenshot 2026-07-12 232547.png>)
+### Analysis3
 ![Analysis3](<screenshots/Screenshot 2026-07-12 232602.png>)
 ---
 
