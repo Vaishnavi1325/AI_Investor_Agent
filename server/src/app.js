@@ -13,7 +13,22 @@ import { errorHandler } from "./middlewares/errorHandler.js";
 const app = express();
 
 app.use(helmet());
-app.use(cors({ origin: env.corsOrigin }));
+const allowedOrigins = [
+  "http://localhost:5173",
+  process.env.FRONTEND_URL,
+];
+
+app.use(
+  cors({
+    origin(origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        return callback(null, true);
+      }
+      callback(new Error("Not allowed by CORS"));
+    },
+    credentials: true,
+  })
+);
 app.use(morgan(env.nodeEnv === "production" ? "combined" : "dev"));
 app.use(express.json({ limit: env.requestBodyLimit }));
 
